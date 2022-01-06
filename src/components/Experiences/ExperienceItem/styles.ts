@@ -30,9 +30,23 @@ export const grayText = css`
   label: grayText;
 `
 
+export const blueText = css`
+  color: ${blue} !important;
+  text-decoration: none;
+  label: blueText;
+`
+
 export const description = css`
-  margin-top: 6px;
+  margin-top: 7px;
   font-size: 18px;
   color: ${gray};
   label: firstLine;
+`
+
+export const date = css`
+	text-align: right;
+
+	@media (max-width: 580px) {
+    display: none;
+  }
 `

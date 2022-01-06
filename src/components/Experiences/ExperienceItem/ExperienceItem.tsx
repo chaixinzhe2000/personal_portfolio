@@ -11,6 +11,7 @@ interface ExperienceItemProps {
   date: string
   description: string | React.ReactChild
   location: string
+  companyLink: string
 }
 
 export function ExperienceItem({
@@ -19,15 +20,20 @@ export function ExperienceItem({
   date,
   description,
   location,
+  companyLink,
 }: ExperienceItemProps) {
   return (
     <div css={styles.wrapper}>
       <div css={styles.firstLine}>
         <div>{title}</div>
-        <div>{date}</div>
+        <div css={styles.date}>{date}</div>
       </div>
       <div css={styles.secondLine}>
-        <div>{company}</div>
+        <div>
+          <a href={companyLink} css={styles.blueText} target="_blank" rel="noreferrer">
+            {company}
+          </a>
+        </div>
         <div css={styles.grayText}>{location}</div>
       </div>
       <div css={styles.description}>{description}</div>
