@@ -1,12 +1,16 @@
 import React from 'react';
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx } from '@emotion/react'
-import { Header } from './components';
+import { css, jsx } from '@emotion/react'
+import { Header, Menu } from './components';
+import * as styles from './styles'
 
 function App() {
 	return (
-		<Header />
+		<div css={styles.content}>
+			<Header />
+			<Menu />
+		</div>
 	);
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { css, jsx } from '@emotion/react'
+import { jsx } from '@emotion/react'
 import * as styles from './styles'
 import Github from '../../images/github.svg'
 import Facebook from '../../images/fb.svg'
@@ -15,12 +15,20 @@ export function Header() {
 				<div css={styles.name}>Xinzhe Chai</div>
 				<div css={styles.tagline}>Software Developer</div>
 				<div css={styles.iconGroup}>
-					<img css={[styles.githubIcon, styles.icon]} src={Github} alt="github" />
-					<img css={[styles.icon, styles.fbIcon]} src={Facebook} alt="facebook" />
-					<img css={styles.icon} src={Email} alt="email" />
-					<img css={styles.icon} src={LinkedIn} alt="linkedin" />
+					<a css={styles.icon} target="_blank" rel="noreferrer" href="https://github.com/chaixinzhe2000">
+						<img css={[styles.githubIcon, styles.icon]} src={Github} alt="github" />
+					</a>
+					<a css={styles.icon} target="_blank" rel="noreferrer" href="https://www.facebook.com/xzchai/">
+						<img css={[styles.icon, styles.fbIcon]} src={Facebook} alt="facebook" />
+					</a>
+					<a css={styles.icon} target="_blank" rel="noreferrer" href="mailto:xinzhe_chai@brown.edu">
+						<img css={styles.icon} src={Email} alt="email" />
+					</a>
+					<a css={styles.icon} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/xzchai/">
+						<img css={styles.icon} src={LinkedIn} alt="linkedin" />
+					</a>
 				</div>
 			</div>
 		</div>
-	);
+	)
 }
