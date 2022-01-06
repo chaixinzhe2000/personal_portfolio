@@ -1,27 +1,17 @@
 import { css } from '@emotion/react'
 import { blue, gray } from '../../constants'
 
-export const leftMenu = css`
+export const leftContent = css`
   min-width: 230px;
   label: menu;
-`
-
-export const menuItem = css`
-  font-size: 18px;
-  color: ${blue};
-  cursor: pointer;
   font-family: 'Circular Std Book';
-  line-height: 25px;
-
-  :hover {
-    color: ${gray};
-  }
-
-  label: menuItem;
+  color: ${gray};
+  font-size: 26px;
+  line-height: 1.1em;
+  letter-spacing: -0.5px;
 `
 
-export const menu = css`
-  margin-top: 80px;
+export const content = css`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -29,10 +19,11 @@ export const menu = css`
   @media (max-width: 780px) {
     flex-wrap: wrap;
   }
-  label: menu;
+
+  label: content;
 `
 
-export const intro = css`
+export const rightContent = css`
   font-size: 18px;
   color: ${gray};
   font-family: 'Circular Std Book';
@@ -40,9 +31,6 @@ export const intro = css`
   max-width: 800px;
 
   @media (max-width: 780px) {
-    margin-top: 20px;
     width: 100%;
   }
-
-  label: intro;
 `

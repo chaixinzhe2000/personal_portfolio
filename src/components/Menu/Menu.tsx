@@ -6,7 +6,7 @@ import * as styles from './styles'
 
 export function Menu() {
   const introText =
-    'I am a junior studying in Computer Science at Brown University. At t' +
+    'I am a junior studying Computer Science at Brown University. At t' +
     'he moment, I am an intern @ Zumper working on the frontend team, and I am passio' +
     'nate about building exciting experience for everyone. As I keep on learning new ' +
     'skills every day, I created this website to document my everyday projects and ex' +

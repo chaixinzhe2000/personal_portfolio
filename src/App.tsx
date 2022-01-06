@@ -2,7 +2,7 @@ import React from 'react'
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/react'
-import { Header, Menu } from './components'
+import { Experiences, Header, Menu, Section } from './components'
 import * as styles from './styles'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <div css={styles.content}>
       <Header />
       <Menu />
+      <Experiences />
     </div>
   )
 }
