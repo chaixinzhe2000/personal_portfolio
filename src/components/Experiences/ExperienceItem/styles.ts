@@ -40,7 +40,12 @@ export const description = css`
   margin-top: 7px;
   font-size: 18px;
   color: ${gray};
-  label: firstLine;
+
+	@media (max-width: 580px) {
+    font-size: 17px;
+  }
+
+  label: description;
 `
 
 export const date = css`

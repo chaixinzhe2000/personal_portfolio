@@ -37,7 +37,7 @@ export function Experiences() {
         title="Web Development Intern"
         company="Keva Health"
         date="July - August 2020"
-        description="I rebuilt the company website from scratch using WordPress and custom CSS, which now generates 1500+ monthly views. Coordinated with different team for website content production; completed site migration and provided timely support during downtime."
+        description="I rebuilt the company website from scratch using WordPress and custom CSS, which now generates 1500+ monthly views. Coordinated with different teams for website content production; completed site migration and provided timely support during downtime."
         location="Lexington, MA"
         companyLink="https://www.kevahealth.com/"
       />
