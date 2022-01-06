@@ -31,7 +31,7 @@ export const rightContent = css`
   max-width: 800px;
 
   @media (max-width: 780px) {
-		margin-top: 20px;
+    margin-top: 20px;
     width: 100%;
   }
 `
