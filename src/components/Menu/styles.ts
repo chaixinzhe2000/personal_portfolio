@@ -3,6 +3,11 @@ import { blue, gray } from '../../constants'
 
 export const leftMenu = css`
   min-width: 230px;
+	
+	@media (max-width: 480px) {
+    min-width: 0;
+  }
+
   label: menu;
 `
 
@@ -29,6 +34,7 @@ export const menu = css`
   @media (max-width: 780px) {
     flex-wrap: wrap;
   }
+
   label: menu;
 `
 

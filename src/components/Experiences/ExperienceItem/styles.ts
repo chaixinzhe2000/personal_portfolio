@@ -27,6 +27,7 @@ export const secondLine = css`
 
 export const grayText = css`
   color: ${gray} !important;
+	text-align: right;
   label: grayText;
 `
 
