@@ -10,11 +10,11 @@ export const leftContent = css`
   line-height: 1.1em;
   letter-spacing: -0.5px;
 
-	@media (max-width: 480px) {
+  @media (max-width: 480px) {
     min-width: 0;
   }
 
-	label: leftContent;
+  label: leftContent;
 `
 
 export const content = css`

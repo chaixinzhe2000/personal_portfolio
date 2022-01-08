@@ -7,18 +7,91 @@ export const wrapper = css`
 `
 
 export const projectsWrapper = css`
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	column-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 20px;
   row-gap: 20px;
 
-	@media (max-width: 780px) {
-		margin-top: 5px;  
-	}
-
-	@media (max-width: 480px) {
-		grid-template-columns: repeat(auto-fit, calc(100vw - 72px));
+  @media (max-width: 780px) {
+    margin-top: 5px;
   }
 
-	label: projectsWrapper;
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(auto-fit, calc(100vw - 72px));
+  }
+
+  label: projectsWrapper;
+`
+
+export const image = css`
+  width: min(500px, 80vw);
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+
+	@media (max-width: 380px) {
+		width: min(500px, 90vw);
+  }
+
+
+  label: image;
+`
+
+export const modalInfoWrapper = css`
+  padding: 25px 30px;
+  width: calc(min(500px, 80vw) - 60px);
+  font-family: 'Circular Std Book';
+  color: ${gray};
+
+	@media (max-width: 380px) {
+		padding: 15px 20px;
+		width: calc(min(500px, 90vw) - 40px);
+  }
+
+  label: modalInfoWrapper;
+`
+
+export const title = css`
+  font-size: 24px;
+  color: ${blue};
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  label: title;
+`
+
+export const pointerCursor = css`
+  cursor: pointer;
+`
+
+export const description = css`
+  font-size: 18px;
+  margin-top: 8px;
+  label: description;
+`
+
+export const technology = css`
+  font-size: 15px;
+  margin-top: 3px;
+  color: ${blue};
+  label: technology;
+`
+
+export const linkIcon = css`
+  width: 22px;
+  height: 22px;
+`
+
+export const divider = css`
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  border-radius: 90;
+  margin: 15px 0;
+`
+
+export const imageCredit = css`
+	font-size: 12px;
+	color: ${gray};
+	margin-top: 20px;
+	label: imageCredit;
 `

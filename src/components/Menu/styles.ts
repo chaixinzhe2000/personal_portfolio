@@ -3,8 +3,8 @@ import { blue, gray } from '../../constants'
 
 export const leftMenu = css`
   min-width: 230px;
-	
-	@media (max-width: 480px) {
+
+  @media (max-width: 480px) {
     min-width: 0;
   }
 
