@@ -1,5 +1,5 @@
 import { css } from '@emotion/react'
-import { blue, gray } from '../../../constants'
+import { blue, gray, lightBlue } from '../../../constants'
 
 export const wrapper = css`
   font-family: 'Circular Std Book';
@@ -34,6 +34,11 @@ export const grayText = css`
 export const blueText = css`
   color: ${blue} !important;
   text-decoration: none;
+
+	&:hover {
+		color: ${lightBlue} !important;
+	}
+	
   label: blueText;
 `
 

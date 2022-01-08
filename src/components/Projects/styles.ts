@@ -8,9 +8,9 @@ export const wrapper = css`
 
 export const projectsWrapper = css`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  column-gap: 20px;
-  row-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  column-gap: 50px;
+  row-gap: 28px;
 
   @media (max-width: 780px) {
     margin-top: 5px;
@@ -29,10 +29,9 @@ export const image = css`
   object-fit: cover;
   margin: 0;
 
-	@media (max-width: 450px) {
-		width: min(500px, 90vw);
+  @media (max-width: 450px) {
+    width: min(500px, 90vw);
   }
-
 
   label: image;
 `
@@ -43,9 +42,9 @@ export const modalInfoWrapper = css`
   font-family: 'Circular Std Book';
   color: ${gray};
 
-	@media (max-width: 450px) {
-		padding: 15px 20px;
-		width: calc(min(500px, 90vw) - 40px);
+  @media (max-width: 450px) {
+    padding: 15px 20px;
+    width: calc(min(500px, 90vw) - 40px);
   }
 
   label: modalInfoWrapper;
@@ -90,14 +89,14 @@ export const divider = css`
 `
 
 export const imageCredit = css`
-	font-size: 12px;
-	color: ${gray};
-	margin-top: 20px;
+  font-size: 12px;
+  color: ${gray};
+  margin-top: 20px;
 
-	@media (max-width: 450px) {
-		margin-top: 10px;
-		margin-bottom: 5px;
+  @media (max-width: 450px) {
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
 
-	label: imageCredit;
+  label: imageCredit;
 `

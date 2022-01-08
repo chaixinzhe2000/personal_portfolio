@@ -88,7 +88,7 @@ export function Projects() {
           <hr css={styles.divider} />
           <div>Technologies used:</div>
           <div css={styles.technology}>{selectedProject.technology}</div>
-					<div css={styles.imageCredit}>Image courtesy of the Library of Congress</div>
+          <div css={styles.imageCredit}>Image courtesy of the Library of Congress</div>
         </div>
       </Modal>
       <Section left="Projects" right={rightContent} customStyle={styles.wrapper} />

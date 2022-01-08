@@ -23,7 +23,6 @@ export function ProjectItem({
 }: ProjectItemProps) {
   return (
     <div css={styles.wrapper} onClick={toggleOpen}>
-      <img src={image} alt="Project" css={styles.image} />
       <div css={styles.infoWrapper}>
         <div css={styles.title}>{title}</div>
         <div css={styles.description}>{description}</div>
