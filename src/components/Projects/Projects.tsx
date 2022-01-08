@@ -7,6 +7,7 @@ import { Section } from '../Section'
 import { ProjectItem } from './ProjectItem'
 import Modal from 'react-modal'
 import { IProject, ProjectEvolution, ProjectMidPoint } from './ProjectDetails'
+import './overlay.css'
 
 export function Projects() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -51,6 +52,7 @@ export function Projects() {
         onRequestClose={closeModal}
         style={customStyles}
         contentLabel="Example Modal"
+        overlayClassName="overlay"
       >
         <img
           src={selectedProject.image}

@@ -2,7 +2,7 @@ import React from 'react'
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/react'
-import { Education, Experiences, Header, Menu, Projects } from './components'
+import { Education, Experiences, Header, Menu, Projects, Skills } from './components'
 import * as styles from './styles'
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Experiences />
       <Projects />
       <Education />
+      <Skills />
     </div>
   )
 }

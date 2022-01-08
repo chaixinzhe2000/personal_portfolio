@@ -35,10 +35,10 @@ export const blueText = css`
   color: ${blue} !important;
   text-decoration: none;
 
-	&:hover {
-		color: ${lightBlue} !important;
-	}
-	
+  &:hover {
+    color: ${lightBlue} !important;
+  }
+
   label: blueText;
 `
 
