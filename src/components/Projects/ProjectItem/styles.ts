@@ -58,6 +58,6 @@ export const title = css`
 `
 
 export const infoWrapper = css`
-  padding: 20px;
+  padding: 18px;
   label: infoWrapper;
 `

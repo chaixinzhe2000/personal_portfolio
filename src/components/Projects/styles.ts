@@ -29,7 +29,7 @@ export const image = css`
   object-fit: cover;
   margin: 0;
 
-	@media (max-width: 380px) {
+	@media (max-width: 450px) {
 		width: min(500px, 90vw);
   }
 
@@ -43,7 +43,7 @@ export const modalInfoWrapper = css`
   font-family: 'Circular Std Book';
   color: ${gray};
 
-	@media (max-width: 380px) {
+	@media (max-width: 450px) {
 		padding: 15px 20px;
 		width: calc(min(500px, 90vw) - 40px);
   }
@@ -93,5 +93,11 @@ export const imageCredit = css`
 	font-size: 12px;
 	color: ${gray};
 	margin-top: 20px;
+
+	@media (max-width: 450px) {
+		margin-top: 10px;
+		margin-bottom: 5px;
+  }
+
 	label: imageCredit;
 `
