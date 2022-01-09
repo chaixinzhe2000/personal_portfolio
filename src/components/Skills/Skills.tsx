@@ -36,6 +36,7 @@ export function Skills() {
           'Emotion',
           'jQuery',
           'Jest',
+          'Cypress',
         ]}
       />
       <SkillGroup

@@ -6,7 +6,7 @@ import * as styles from './styles'
 
 interface ProjectItemProps {
   title: string
-  technology: string
+  technology: string[]
   description: string
   link?: string
   image: string

@@ -10,7 +10,7 @@ export const wrapper = css`
 export const description = css`
   color: ${blue};
   display: flex;
-  margin-top: 2px;
+  margin-top: 3px;
   width: 100%;
   flex-wrap: wrap;
 `

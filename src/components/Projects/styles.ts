@@ -37,7 +37,7 @@ export const image = css`
 `
 
 export const modalInfoWrapper = css`
-  padding: 25px 30px;
+  padding: 18px 30px 25px 30px;
   width: calc(min(500px, 80vw) - 60px);
   font-family: 'Circular Std Book';
   color: ${gray};
@@ -73,7 +73,30 @@ export const technology = css`
   font-size: 15px;
   margin-top: 3px;
   color: ${blue};
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
   label: technology;
+`
+
+export const language = css`
+  font-size: 15px;
+  margin-top: 3px;
+  color: ${blue};
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  label: language;
+`
+
+export const languageItem = css`
+  margin-right: 7px;
+  label: languageItem;
+`
+
+export const techItem = css`
+  margin-right: 7px;
+  label: techItem;
 `
 
 export const linkIcon = css`
@@ -99,4 +122,9 @@ export const imageCredit = css`
   }
 
   label: imageCredit;
+`
+
+export const languageTitle = css`
+  margin-top: 10px;
+  label: languageTitle;
 `
