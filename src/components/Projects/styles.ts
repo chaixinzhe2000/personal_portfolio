@@ -1,5 +1,5 @@
 import { css } from '@emotion/react'
-import { blue, gray } from '../../constants'
+import { blue, gray, lightBlue } from '../../constants'
 
 export const wrapper = css`
   margin-top: 50px;
@@ -62,6 +62,11 @@ export const title = css`
 
 export const pointerCursor = css`
   cursor: pointer;
+
+	&:hover {
+		color: ${lightBlue};
+	}
+	label: pointerCursor;
 `
 
 export const description = css`

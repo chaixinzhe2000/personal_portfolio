@@ -49,5 +49,5 @@ export const ProjectMidPoint: IProject = {
 	image:
 		'https://i.imgur.com/T7MR6UX.png',
 	link: 'https://www.midpoint.fun/',
-	source: 'Chai'
+	source: 'Xinzhe Chai'
 }
