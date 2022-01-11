@@ -109,7 +109,7 @@ export function Projects() {
 							)
 						})}
 					</div>
-					<div css={styles.imageCredit}>Image courtesy of the Library of Congress</div>
+					<div css={styles.imageCredit}>Image courtesy of {selectedProject.source}</div>
 				</div>
 			</Modal>
 			<Section left="Projects" right={rightContent} customStyle={styles.wrapper} />

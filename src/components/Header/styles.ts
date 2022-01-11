@@ -11,6 +11,7 @@ export const name = css`
   color: ${blue};
   cursor: pointer;
   font-weight: 500;
+	width: max-content;
   label: name;
 `
 
@@ -19,6 +20,7 @@ export const tagline = css`
   margin-top: 2px;
   margin-left: -2px;
   line-height: 0.95em;
+	width: max-content;
   label: tagline;
 `
 

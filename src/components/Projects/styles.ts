@@ -23,6 +23,7 @@ export const projectsWrapper = css`
   label: projectsWrapper;
 `
 
+// Dimension: 5:2
 export const image = css`
   width: min(500px, 80vw);
   height: 200px;
