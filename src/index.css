@@ -1,30 +1,21 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 @font-face {
-  font-family: 'Circular Std Book';
-  src: url('https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot'); /* IE9*/
-  src: url('https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */
-      url('https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2')
-      format('woff2'),
-    /* chrome firefox */
-      url('https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff')
-      format('woff'),
-    /* chrome firefox */
-      url('https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf')
-      format('truetype'),
-    /* chrome firefox opera Safari, Android, iOS 4.2+*/
-      url('https://db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book')
-      format('svg'); /* iOS 4.1- */
+	font-family: "Circular Std Book";
+	src: url("./fonts/circular.eot"); /* IE9*/
+	src: url("./fonts/circular.eot") format("embedded-opentype"),
+		/* IE6-IE8 */ url("./fonts/circular.woff2") format("woff2"),
+		/* chrome firefox */ url("./fonts/circular.woff") format("woff"),
+		/* chrome firefox */ url("./fonts/circular.ttf") format("truetype"),
+		/* chrome firefox opera Safari, Android, iOS 4.2+*/ url("./fonts/circular.svg") format("svg"); /* iOS 4.1- */
 }
