@@ -19,8 +19,9 @@ export const ProjectNudge: IProject = {
 	language: ['TypeScript'],
 	description:
 		'A social to-do list app where users send small tasks to their friends, so everyday favors are done easily.',
-	image: 'https://s21.q4cdn.com/248165169/files/images/2018/02/nudge.crop_.jpg',
-	source: 'hello world'
+	image: 'https://imgur.com/6THfskt.png',
+	link: 'https://github.com/chaixinzhe2000/nudge',
+	source: 'Figma'
 }
 
 export const ProjectEvolution: IProject = {
@@ -47,7 +48,7 @@ export const ProjectMidPoint: IProject = {
 	description:
 		'A fun polling site that allows user to post interesting questions to community and gauge public opinions.',
 	image:
-		'https://i.imgur.com/T7MR6UX.png',
+		'https://i.imgur.com/NlgKXxf.png',
 	link: 'https://www.midpoint.fun/',
 	source: 'Xinzhe Chai'
 }
