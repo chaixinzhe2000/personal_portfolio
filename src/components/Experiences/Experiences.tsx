@@ -34,14 +34,6 @@ export function Experiences() {
 				companyLink="https://www.fullstackatbrown.com/"
 			/>
 			<ExperienceItem
-				title="Undergraduate Teaching Assistant"
-				company="Dept. of CS, Brown University"
-				date="June - December 2021"
-				description="As UTA for Hypertext Systems (CS1951V), I helped redesign course assignments with MERN stack and developed exploratory labs for React, MongoDB, Express. Maintained course website and developed autograder with Jest testing framework. "
-				location="Providence, RI"
-				companyLink="https://cs.brown.edu/courses/ta/"
-			/>
-			<ExperienceItem
 				title="Web Development Intern"
 				company="Keva Health"
 				date="July - August 2020"
