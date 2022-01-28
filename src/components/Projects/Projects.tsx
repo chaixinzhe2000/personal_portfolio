@@ -6,7 +6,15 @@ import * as styles from './styles'
 import { Section } from '../Section'
 import { ProjectItem } from './ProjectItem'
 import Modal from 'react-modal'
-import { IProject, ProjectEvolution, ProjectMidPoint, ProjectNudge } from './ProjectDetails'
+import {
+	IProject,
+	Project33sh,
+	ProjectBIP,
+	ProjectEvolution,
+	ProjectMidPoint,
+	ProjectNudge,
+	ProjectTradeTracker,
+} from './ProjectDetails'
 import './overlay.css'
 
 export function Projects() {
@@ -41,9 +49,12 @@ export function Projects() {
 
 	const rightContent = (
 		<div css={styles.projectsWrapper}>
-			<ProjectItem {...ProjectNudge} toggleOpen={() => openModal(ProjectNudge)} />
-			<ProjectItem {...ProjectEvolution} toggleOpen={() => openModal(ProjectEvolution)} />
 			<ProjectItem {...ProjectMidPoint} toggleOpen={() => openModal(ProjectMidPoint)} />
+			<ProjectItem {...ProjectNudge} toggleOpen={() => openModal(ProjectNudge)} />
+			<ProjectItem {...Project33sh} toggleOpen={() => openModal(Project33sh)} />
+			<ProjectItem {...ProjectBIP} toggleOpen={() => openModal(ProjectBIP)} />
+			<ProjectItem {...ProjectEvolution} toggleOpen={() => openModal(ProjectEvolution)} />
+			<ProjectItem {...ProjectTradeTracker} toggleOpen={() => openModal(ProjectTradeTracker)} />
 		</div>
 	)
 	return (
@@ -109,7 +120,9 @@ export function Projects() {
 							)
 						})}
 					</div>
-					<div css={styles.imageCredit}>Image courtesy of {selectedProject.source}</div>
+					{selectedProject.fineprint && (
+						<div css={styles.fineprint}>{selectedProject.fineprint}</div>
+					)}
 				</div>
 			</Modal>
 			<Section left="Projects" right={rightContent} customStyle={styles.wrapper} />

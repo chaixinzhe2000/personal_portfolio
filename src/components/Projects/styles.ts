@@ -63,10 +63,10 @@ export const title = css`
 export const pointerCursor = css`
   cursor: pointer;
 
-	&:hover {
-		color: ${lightBlue};
-	}
-	label: pointerCursor;
+  &:hover {
+    color: ${lightBlue};
+  }
+  label: pointerCursor;
 `
 
 export const description = css`
@@ -117,8 +117,8 @@ export const divider = css`
   margin: 15px 0;
 `
 
-export const imageCredit = css`
-  font-size: 12px;
+export const fineprint = css`
+  font-size: 12.5px;
   color: ${gray};
   margin-top: 20px;
 
