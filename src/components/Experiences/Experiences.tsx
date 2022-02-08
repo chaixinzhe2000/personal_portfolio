@@ -9,14 +9,14 @@ import { ExperienceItem } from './ExperienceItem'
 export function Experiences() {
 	const rightContent = (
 		<React.Fragment>
-			<ExperienceItem
+			{/* <ExperienceItem
 				title="Incoming Software Engineer Intern"
 				company="Meta Platforms"
 				date="May 2022"
 				description=""
 				location="Seattle, WA"
 				companyLink="https://about.facebook.com/meta/"
-			/>
+			/> */}
 			<ExperienceItem
 				title="Software Engineering Intern"
 				company="Zumper"
