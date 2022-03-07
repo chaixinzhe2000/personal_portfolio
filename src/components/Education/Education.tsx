@@ -10,7 +10,7 @@ export function Education() {
 	const rightContent = (
 		<React.Fragment>
 			<EducationItem
-				title="Concurrent Sc.B. and Sc.M. degree in Computer Science"
+				title="Concurrent Sc.B. and Sc.M. in Computer Science"
 				school="Brown University"
 				date="May 2023"
 				description="Relevant Coursework: Distributed Systems, Blockchains and Cryptocurrency, Software Engineering, Web Applications, Computer Systems, Deep Learning, Data Structures and Algorithms, Hypertext Systems, Statistical Inference, Programming Languages"
