@@ -4,13 +4,13 @@ import React from 'react'
 import { jsx } from '@emotion/react'
 import * as styles from './styles'
 import { Section } from '../Section'
-import { EducationItem } from './ExperienceItem'
+import { EducationItem } from './EducationItem'
 
 export function Education() {
 	const rightContent = (
 		<React.Fragment>
 			<EducationItem
-				title="Sc.B. in Computer Science"
+				title="Concurrent Bachelor's and Master's degree in Computer Science"
 				school="Brown University"
 				date="May 2023"
 				description="Relevant Coursework: Distributed Systems, Blockchains and Cryptocurrency, Software Engineering, Web Applications, Computer Systems, Deep Learning, Data Structures and Algorithms, Hypertext Systems, Statistical Inference, Programming Languages"
