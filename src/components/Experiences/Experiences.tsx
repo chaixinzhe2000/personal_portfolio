@@ -12,8 +12,8 @@ export function Experiences() {
 			<ExperienceItem
 				title="Incoming Software Engineer Intern"
 				company="Meta Platforms"
-				date="May 2022"
-				description=""
+				date="May - August 2022"
+				description="Developer Enablement Team"
 				location="Seattle, WA"
 				companyLink="https://about.facebook.com/meta/"
 			/>
