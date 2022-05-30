@@ -10,7 +10,7 @@ export function Experiences() {
 	const rightContent = (
 		<React.Fragment>
 			<ExperienceItem
-				title="Incoming Software Engineer Intern"
+				title="Software Engineer Intern"
 				company="Meta Platforms"
 				date="May - August 2022"
 				description="Developer Enablement Team"
