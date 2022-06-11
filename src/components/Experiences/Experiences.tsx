@@ -13,7 +13,7 @@ export function Experiences() {
 				title="Software Engineer Intern"
 				company="Meta Platforms"
 				date="May - August 2022"
-				description="Developer Enablement Team"
+				description="Privacy Management Team"
 				location="Seattle, WA"
 				companyLink="https://about.facebook.com/meta/"
 			/>
