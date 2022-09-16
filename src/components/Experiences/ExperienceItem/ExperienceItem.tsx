@@ -3,7 +3,6 @@ import React from 'react'
 /** @jsx jsx */
 import { jsx } from '@emotion/react'
 import * as styles from './styles'
-import { cpuUsage } from 'process'
 
 interface ExperienceItemProps {
   title: string

@@ -1,5 +1,5 @@
 import { css } from '@emotion/react'
-import { blue, gray, lightBlue } from '../../../constants'
+import { blue } from '../../../constants'
 
 export const wrapper = css`
   font-family: 'Circular Std Book';

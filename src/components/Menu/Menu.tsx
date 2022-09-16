@@ -6,10 +6,10 @@ import * as styles from './styles'
 
 export function Menu() {
 	const introText =
-		'I am a junior studying Computer Science at Brown University. I am passionate abo' +
+		'I am a senior studying Computer Science at Brown University. I am passionate abo' +
 		'ut building exciting experience for everyone, through web technologies such as R' +
-		'eact, Redux, and Express. I am never afraid to take on engineering challenges wi' +
-		'th a learning mind, but I am probably drinking Aloe water while I tackle them.'
+		'eact, and Express. I am never afraid to take on engineering challenges wi' +
+		'th a learning mind, but I am probably drinking oat milk or Aloe water while I tackle them.'
 
 	return (
 		<div css={styles.menu}>

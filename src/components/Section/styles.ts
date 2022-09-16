@@ -1,5 +1,5 @@
 import { css } from '@emotion/react'
-import { blue, gray } from '../../constants'
+import { gray } from '../../constants'
 
 export const leftContent = css`
   min-width: 230px;

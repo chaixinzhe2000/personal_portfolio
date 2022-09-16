@@ -23,7 +23,7 @@ export function Education() {
 				date="2016 - 2019"
 				description="I founded TEDxUWCChangshu and organized Mini-UWC Summer Program for 4 consecutive years."
 				location="Changshu"
-				schoolLink="https://www.uwcchina.org/en"
+				schoolLink="https://www.uwc.org/"
 			/>
 		</React.Fragment>
 	)
